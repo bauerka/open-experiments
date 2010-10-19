@@ -1,0 +1,13 @@
+{
+        "sakai:is-site-template": "true",
+        "sakai:authorizables": ["g-mpass-collaborators", "g-mpass-viewers"],
+        "description": "This is a MPASS site template!",
+        "id": "mpass",
+        "sakai:site-template": "/templates/mpass",
+        "sakai:skin": "/dev/_skins/original/original.html",
+        "sling:resourceType": "sakai/template",
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": ["rep:AccessControllable"],
+        "status": "online",
+        "name": "mpass"
+    }

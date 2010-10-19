@@ -1,0 +1,7 @@
+{
+	"sling:resourceType": "sakai/page",
+	"pageTitle": "Module 1",
+	"pageType": "webpage", 
+	"pagePosition": 110000,
+	"jcr:mixinTypes": "sakai:propertiesmix"
+}

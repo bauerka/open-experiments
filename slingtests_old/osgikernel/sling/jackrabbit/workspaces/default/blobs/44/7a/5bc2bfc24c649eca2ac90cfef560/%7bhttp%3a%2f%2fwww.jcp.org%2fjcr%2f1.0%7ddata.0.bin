@@ -1,0 +1,57 @@
+/*
+ * Licensed to the Sakai Foundation (SF) under one
+ * or more contributor license agreements. See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership. The SF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License. You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations under the License.
+ */
+
+/* Settings */
+#comments_settings { padding:5px;}
+#comments_settings input[type=text],#comments_fillInComment input[type=text],#comments_fillInComment textarea,.comments_inputFields {height:20px;padding-left:0;padding-right:0;border-color:#747779;border-style:solid;border-width:1px;margin:5px 0;}
+#comments_mainContainer textarea { height:100px; width:auto; padding-left:0;padding-right:0;border-color:#747779;border-style:solid;border-width:1px;margin:5px 0;}
+.comments_settingsPart {padding:10px 0px 10px 0px;}
+.comments_settingsPart h3 { margin:0px;}
+.comments_settingsPart ul { margin:3px 0px 0px 2em;}
+.comments_settingsPart ul li {list-style:none;}
+#comments_txtPage {width:30px;padding:2px;height:16px;}
+.comments_settingsPart .buttonBar { margin-top:25px;}
+
+/* Main container */
+.comments_commentMessage p.comments_infoDeleted { font-size:0.9em;text-align:right;}
+.comments_nextButtons {overflow:hidden;width:auto;}
+#comments_titlebar {overflow:auto;width:auto;height:20px;border-bottom-style:solid;border-bottom-width:1px;color:#BBB;border-color:#DEDEDE;}
+#comments_titlebar .comments_titleLeft {float:left;font-size:1.25em;font-weight:700;color:#333;}
+#comments_titlebar .comments_titleRight {float:right;}
+#comments_numCommentsDisplayed, #comments_numComments {color:#333;}
+.comments_posterDataName,.comments_posterData a {color:#058EC4;font-size:1.1em;text-decoration:none;font-weight:400;margin:0;}
+.comments_posterData {float:left;padding-left:15px;height:35px;}
+.comments_posterData a:hover {text-decoration:underline;}
+.comments_commentMessage {width:auto;background-color:#eee;color:#333;padding:0 10px 10px;}
+.comments_commentMessage ul {float:right;margin-top:5px;margin-bottom:1px;}
+#comments_prevPage {float:right;margin-right:10px;display:none;}
+.comments_commentLinks {overflow:auto;width:auto;}
+.comments_commentMessage ul li {display:inline;color:#BBB;}
+.comments_commentMessage ul li a {color:#058EC4;}
+.comments_arrowUp {height:10px;background:#fff url(../images/comments_arrowup.jpg) no-repeat bottom left;}
+.comments_avatar {height:35px;float:left;}
+.comments_dateComment {color:#BBB;}
+.comments_topCommentBar {margin-top:25px;overflow:auto;}
+.comments_fillInCommentTopContainer {margin-bottom:80px;}
+.comments_fillInCommentTopContainer input[type=text] {width:350px;}
+#comments_txtMessage {height:100px;width:auto;}
+.commentsTable {width:95%;}
+#comments_fillInComment {background-color:#EBEFF1;margin-top:15px;padding:0px 15px 10px 15px;}
+#comments_fillInComment label { font-weight:bold;margin-top:20px;display:block;}
+#comments_fillInComment .buttonBar { margin-top:20px;}
+.comments_nextButtons .buttonBar {margin-top:15px;}

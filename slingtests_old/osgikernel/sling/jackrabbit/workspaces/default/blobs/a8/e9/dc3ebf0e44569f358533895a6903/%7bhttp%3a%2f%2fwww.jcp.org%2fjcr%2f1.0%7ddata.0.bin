@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Sakai 3 R&amp;D - Sign In</title>
+
+        <!-- Sakai Core CSS -->
+        <link rel="stylesheet" type="text/css" href="_css/FSS/fss-base.css" />
+        <link rel="stylesheet" type="text/css" href="_css/sakai/sakai.base.css" />
+        <link rel="stylesheet" type="text/css" href="_css/sakai/sakai.core.2.css" />
+        <link rel="stylesheet" type="text/css" href="_css/sakai/sakai.3.css" />
+
+        <!-- Sakai Page CSS -->
+        <link rel="stylesheet" type="text/css" href="_css/sakai/sakai.index.css" />
+
+        <!-- 3rd party CSS -->
+
+        <!-- Sakai Config JS -->
+        <script type="text/javascript" language="JavaScript" src="_configuration/widgets.js"></script>
+        <script type="text/javascript" language="JavaScript" src="_configuration/config.js"></script>
+
+        <!-- Core 3rd-party JS -->
+        <script type="text/javascript" language="JavaScript" src="_lib/Fluid/InfusionAll.js"></script>
+
+        <!-- Sakai Core JS -->
+        <script type="text/javascript" language="JavaScript" src="_lib/sakai_util/sakai_magic.js"></script>
+        <script type="text/javascript" language="JavaScript" src="_lib/sakai_util/sdata.js"></script>
+        <script type="text/javascript" language="JavaScript" src="_lib/sakai_util/i18n.js"></script>
+
+        <!-- 3rd party JS -->
+        <script type="text/javascript" language="JavaScript" src="_lib/sakai_util/sakai_3rdparty.js"></script>
+
+    </head>
+
+    <body class="fl-centered index i18nable">
+
+        <div class="index-container fl-centered">
+
+            <!-- HEADER -->
+            <!--<div class="header-version">
+                __MSG__VERSION__
+            </div>-->
+            <div class="header-title">
+                <img src="_images/sakai_logo_index.png" alt="__MSG__INSTANCE_NAME__"/>
+            </div>
+
+            <div class="header-byline">
+                __MSG__HEADER_BYLINE__
+            </div>
+
+            <div class="login-box">
+                <div class="preview-box">
+                    <div class="header-smallline">
+                        __MSG__HEADER_SMALLLINE__
+                    </div>
+
+                    <!-- PREVIEW IMAGE -->
+                    <img src="_images/panel_thumb.jpg" alt="__MSG__INSTANCE_NAME__"/>
+                </div>
+
+                <!-- LOGIN FUNCTIONALITY -->
+                <form class="login-container" id="login-container" method="post" action="javascript:;">
+                    <label for="username">__MSG__USERNAME__:</label><br/>
+                    <input type="text" alt="__MSG__USERNAME__" id="username" name="username" class="login-container-textfield"/><br/>
+                    <label for="password">__MSG__PASSWORD__:</label><br/>
+                    <input type="password" alt="__MSG__PASSWORD__" id="password" name="password" class="login-container-textfield"/>
+
+                    <div id="login-failed">__MSG__LOGIN_FAILED__!<br/></div>
+
+                    <div class="login-container-button">
+                        <button id="loginbutton" type="submit" class="s3d-button s3d-button-primary"><span class="s3d-button-inner">Sign In</span></button>
+
+                        <span id="login-loader">__MSG__SIGNING_IN__</span>
+                    </div>
+
+                    <div id="register_here">
+                        __MSG__NO_ACCOUNT_YET__? <a href="create_new_account.html">__MSG__REGISTER_HERE__</a>
+                    </div>
+                </form>
+            </div>
+
+            <!-- FOOTER WIDGET -->
+            <div id="widget_footer" class="widget_inline footercontainer"></div>
+
+        </div>
+
+        <script type="text/javascript" language="JavaScript" src="_javascript/index.js"></script>
+
+    </body>
+</html>
